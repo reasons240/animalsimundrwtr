@@ -28,7 +28,7 @@ local robot = CreateInstance("TextButton", {Name = "robot", Text = "All Octopus 
 local XPFarm = CreateInstance("TextButton", {Name = "XPFarm", Text = "Farm All Bosses/Dummy", BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(25, 25, 25), BackgroundTransparency = 0.8, Parent = MainFrame, TextSize = 18, Size = UDim2.new(1, 0, 0, 15), Position = UDim2.new(0, 0, 0, 70), Font = Enum.Font.SourceSansLight, TextColor3 = Color3.fromRGB(255, 255, 255)})
 local StopFarming = CreateInstance("TextButton", {Name = "StopFarming", Text = "Stop Farming", BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(25, 25, 25), BackgroundTransparency = 0.8, Parent = MainFrame, TextSize = 18, Size = UDim2.new(1, 0, 0, 15), Position = UDim2.new(0, 0, 0, 90), Font = Enum.Font.SourceSansLight, TextColor3 = Color3.fromRGB(255, 255, 255)})
 local anti = CreateInstance("TextButton", {Name = "Anti", Text = "Anti Afk", BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(25, 25, 25), BackgroundTransparency = 0.8, Parent = MainFrame, TextSize = 18, Size = UDim2.new(1, 0, 0, 15), Position = UDim2.new(0, 0, 0, 110), Font = Enum.Font.SourceSansLight, TextColor3 = Color3.fromRGB(255, 255, 255)})
-local eggs = CreateInstance("TextButton", {Name = "eggs", Text = "Grab All Eggs", BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(25, 25, 25), BackgroundTransparency = 0.8, Parent = MainFrame, TextSize = 18, Size = UDim2.new(1, 0, 0, 15), Position = UDim2.new(0, 0, 0, 130), Font = Enum.Font.SourceSansLight, TextColor3 = Color3.fromRGB(255, 255, 255)})
+local egg = CreateInstance("TextButton", {Name = "egg", Text = "Grab All Eggs", BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(25, 25, 25), BackgroundTransparency = 0.8, Parent = MainFrame, TextSize = 18, Size = UDim2.new(1, 0, 0, 15), Position = UDim2.new(0, 0, 0, 130), Font = Enum.Font.SourceSansLight, TextColor3 = Color3.fromRGB(255, 255, 255)})
 --------------------------------------------------------------
 robot.MouseButton1Down:Connect(function()
 local args = {
@@ -280,32 +280,11 @@ StopFarming.MouseButton1Down:Connect(function()
 _G.On = false
 end)
 
-tiny.MouseButton1Down:Connect(function()
-local oh1 = CFrame.new(-511.31207275390625, 638.3619995117188, 116.12837219238281)
-local oh2 = game:GetService("Players")
-local oh3 = oh2.LocalPlayer.Character.HumanoidRootPart
-oh3.CFrame = oh1
-wait(5)
-local oh1 = CFrame.new(-126.85738372802734, 642.1845703125, 508.9164123535156)
-local oh2 = game:GetService("Players")
-local oh3 = oh2.LocalPlayer.Character.HumanoidRootPart
-oh3.CFrame = oh1
-end)
-
-feather.MouseButton1Down:Connect(function()
-local args = {
-    [1] = "carry",
-    [2] = "feather"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PegasusQuestEvent"):FireServer(unpack(args))
-end)
-
 anti.MouseButton1Down:Connect(function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097"))()
 end)
 
-eggs.MouseButton1Down:Connect(function()
+egg.MouseButton1Down:Connect(function()
 local args = {
     [1] = "Clownfish10",
     [2] = "v1"
@@ -438,5 +417,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
-
 end)

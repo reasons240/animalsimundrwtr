@@ -291,126 +291,147 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dolphin8",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Clownfish9",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Clownfish8",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Clownfish7",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Clownfish6",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dolphin7",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dolphin6",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dolphin9",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dolphin10",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl13",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl12",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl14",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl11",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl10",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl9",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Axolotl8",
     [2] = "v1"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Stingray10",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Stingray8",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Stingray9",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Stingray7",
     [2] = "v2"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Stingray6",
     [2] = "v2"

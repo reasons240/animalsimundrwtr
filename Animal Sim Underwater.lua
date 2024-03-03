@@ -220,6 +220,14 @@ XPFarm.MouseButton1Down:Connect(function()
 _G.On = true
 while _G.On==true do
 wait()
+			local args = {
+    [1] = {
+        ["action"] = "heart",
+        ["reward"] = "ValOctopus1"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DamageEvent"):FireServer(unpack(args))
 local args = {
     [1] = {
         ["multiply"] = 1,
